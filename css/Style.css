@@ -78,3 +78,12 @@
         outline-offset: 35px;
         text-shadow: 1px 1px 2px #427388;
     }
+
+
+
+@media (max-width: 768px) {
+    .Carrusel {
+        width: 100%;
+        height: auto;
+    }
+}
