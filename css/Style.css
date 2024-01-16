@@ -45,3 +45,15 @@
         min-height: 50px;
         border-radius: 8%;
     }
+
+
+    @media only screen and (max-width: 600px) {
+        .Contenedor_1, .Contenedor_2, .Contenedor_3 {
+            width: 100%; /* Hacer que ocupe el ancho completo del dispositivo */
+            margin-left: 0; /* Eliminar el margen izquierdo en dispositivos móviles */
+        }
+    
+        .Boton_1, .Boton_2, .Boton_3 {
+            width: 100%; /* Hacer que ocupe el ancho completo del contenedor */
+        }
+    }
