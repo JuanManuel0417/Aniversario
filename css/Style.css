@@ -5,6 +5,10 @@
         padding: 0;
     }
 
+    .Banner{
+        width: 100%;
+        height: auto;
+    }
 
     li img{
         width: 100%;
@@ -47,13 +51,22 @@
     }
 
 
-    @media only screen and (max-width: 600px) {
-        .Contenedor_1, .Contenedor_2, .Contenedor_3 {
-            width: 100%; /* Hacer que ocupe el ancho completo del dispositivo */
-            margin-left: 0; /* Eliminar el margen izquierdo en dispositivos móviles */
+    @media screen and (max-width: 768px) {
+
+        body {
+            font-size: 14px;
         }
-    
-        .Boton_1, .Boton_2, .Boton_3 {
-            width: 100%; /* Hacer que ocupe el ancho completo del contenedor */
+
+        .Tabla{
+            flex-wrap: wrap;
+        }
+
+        .Contenedor_1, .Contenedor_2, .Contenedor_3{
+            width: 90%;
+            margin: 10px;
+        }
+
+        .Boton_1, .Boton_2, .Boton_3{
+            margin-top: 2%;
         }
     }
