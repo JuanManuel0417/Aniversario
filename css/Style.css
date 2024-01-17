@@ -187,25 +187,36 @@
     
         .Tabla {
             flex-wrap: wrap;
-            height: auto; /* Ajusta la altura de Tabla para dispositivos móviles */
+            height: auto;
         }
     
         .Contenedor_1, .Contenedor_2, .Contenedor_3 {
-            width: 100%; /* Ocupa el ancho completo en dispositivos móviles */
-            margin: 10px 0; /* Ajusta el margen de los contenedores en dispositivos móviles */
+            width: 90%;
+            margin: 10px;
         }
     
         .Boton_1, .Boton_2, .Boton_3 {
-            margin-top: 2%; /* Ajusta el margen superior de los botones en dispositivos móviles */
+            margin-top: 2%;
         }
     
-        .Banner {
-            height: auto; /* Ajusta la altura del banner para dispositivos móviles */
+        .Carrusel {
+            width: 90%;
+            margin: 20px auto;
+        }
+    
+        .Carrusel img {
+            height: auto;
         }
     
         .Final {
-            margin-top: 5%; /* Ajusta el margen superior de Final en dispositivos móviles */
+            text-align: center;
+            margin-top: 5%;
             margin-bottom: 5%;
         }
-    }
     
+        .Spotify {
+            display: block;
+            margin: 10px auto;
+            padding: 10px 20px;
+        }
+    }
