@@ -6,6 +6,11 @@
         font-size: 16px;
     }
 
+    
+    a{
+        text-decoration: none;
+    }
+
 
     .Banner{
         width: 100%;
@@ -164,7 +169,6 @@
 
 
     .Spotify{
-        margin-top: 2%;
         background-color: #F53098;
         color: white;
         font-size: 20px;
@@ -173,7 +177,7 @@
         border-radius: 8%;
         animation: pulsar 0.5s ease-in-out infinite alternate;
         display: block;
-        margin: 10px auto; /* Centra el botón horizontalmente usando márgenes automáticos */
+        margin: 5% auto; /* Centra el botón horizontalmente usando márgenes automáticos */
         padding: 10px 20px;
     }
 
@@ -183,6 +187,10 @@
     @media screen and (max-width: 768px) {
         body {
             font-size: 14px;
+        }
+
+        .Banner{
+            width: 100%;
         }
     
         .Tabla {
@@ -196,7 +204,7 @@
         }
     
         .Boton_1, .Boton_2, .Boton_3 {
-            margin-top: 2%;
+            margin-top: 5%;
         }
     
         .Carrusel {
