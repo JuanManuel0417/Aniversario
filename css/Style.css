@@ -3,7 +3,7 @@
         color: white;
         margin: 0;
         padding: 0;
-        font-size: 16px;
+        font-size: 18px;
     }
 
     
@@ -114,7 +114,6 @@
     .Carrusel {
         width: 70%;
         height: 70%;
-        margin-top: 4%;
         margin-left: 15%; 
         overflow: hidden;
         align-items: center;
@@ -158,12 +157,12 @@
 
     .Final{
         width: 85%;
-        height: 850px;
+        height: 860px;
         background-color: #c8c1ed;
         margin-left: 3%;
         margin-top: 10%;
         margin-bottom: 5%;
-        border-radius: 8%;
+        border-radius: 5%;
         padding: 4%;
     }
 
@@ -204,7 +203,7 @@
         }
     
         .Boton_1, .Boton_2, .Boton_3 {
-            margin-top: 5%;
+            margin-top: 15%;
         }
     
         .Carrusel {

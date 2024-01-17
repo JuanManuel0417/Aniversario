@@ -4,7 +4,7 @@ function mostrarFormulario1() {
 
 function cerrarFormulario1() {
     document.getElementById('overlay1').style.display = 'none';
-    alert('🤍TE AMO DEMASIADO SIEMPRE RECUERDALO🐻');
+    alert('🤍TE AMO DEMASIADO, RECUÉRDALO SIEMPRE🐻');
 }
 
 
@@ -14,7 +14,7 @@ function mostrarFormulario2() {
 
 function cerrarFormulario2() {
     document.getElementById('overlay2').style.display = 'none';
-    alert('🤍TE AMO DEMASIADO SIEMPRE RECUERDALO🐻');
+    alert('🤍ERES EL COMPLEMENTO QUE MI VIDA NECESITA🐻');
 }
 
 function mostrarFormulario3() {
@@ -23,5 +23,5 @@ function mostrarFormulario3() {
 
 function cerrarFormulario3() {
     document.getElementById('overlay3').style.display = 'none';
-    alert('🤍TE AMO DEMASIADO SIEMPRE RECUERDALO🐻');
+    alert('🤍ME ENCANTA CADA COSA QUE CONFORMA TU SER🐻');
 }
