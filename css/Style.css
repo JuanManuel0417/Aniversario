@@ -3,7 +3,7 @@
         color: white;
         margin: 0;
         padding: 0;
-        font-size: 18px;
+        font-size: 16px;
     }
 
 
@@ -152,10 +152,10 @@
 
 
     .Final{
-        width: 70%;
+        width: 85%;
         height: 850px;
         background-color: #c8c1ed;
-        margin-left: 15%;
+        margin-left: 3%;
         margin-top: 10%;
         margin-bottom: 5%;
         border-radius: 8%;
@@ -181,22 +181,31 @@
 
 
     @media screen and (max-width: 768px) {
-
         body {
             font-size: 14px;
         }
-
-        .Tabla{
+    
+        .Tabla {
             flex-wrap: wrap;
-            height: 700px;
+            height: auto; /* Ajusta la altura de Tabla para dispositivos móviles */
         }
-
-        .Contenedor_1, .Contenedor_2, .Contenedor_3{
-            width: 90%;
-            margin: 10px;
+    
+        .Contenedor_1, .Contenedor_2, .Contenedor_3 {
+            width: 100%; /* Ocupa el ancho completo en dispositivos móviles */
+            margin: 10px 0; /* Ajusta el margen de los contenedores en dispositivos móviles */
         }
-
-        .Boton_1, .Boton_2, .Boton_3{
-            margin-top: 2%;
+    
+        .Boton_1, .Boton_2, .Boton_3 {
+            margin-top: 2%; /* Ajusta el margen superior de los botones en dispositivos móviles */
+        }
+    
+        .Banner {
+            height: auto; /* Ajusta la altura del banner para dispositivos móviles */
+        }
+    
+        .Final {
+            margin-top: 5%; /* Ajusta el margen superior de Final en dispositivos móviles */
+            margin-bottom: 5%;
         }
     }
+    
